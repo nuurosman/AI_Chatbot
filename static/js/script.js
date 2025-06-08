@@ -55,7 +55,7 @@ $(document).ready(function () {
                         } else {
                             clearInterval(typingInterval);
                             isBotTyping = false;
-                            $('#send-button').text('Send'); 
+                            $('#send-button').html('<i class="bi bi-send-plus-fill"></i>'); 
                         }
                     }, 20); 
                 },
